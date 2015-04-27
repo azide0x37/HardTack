@@ -8,9 +8,7 @@ struct Offender {
 }
 
 fn main() {
-    let conn = Connection::connect("postgres://wicebfabsysqtu:O-8yWv1vVfdYaG-TsvIMAVOTvR@ec2-50-17-249-73.compute-1.amazonaws.com:5432/d4iqsk43frobnr
-
-", &SslMode::None).unwrap();
+    let conn = Connection::connect("postgres://wicebfabsysqtu:O-8yWv1vVfdYaG-TsvIMAVOTvR@ec2-50-17-249-73.compute-1.amazonaws.com:5432/d4iqsk43frobnr", &SslMode::None).unwrap();
 
     conn.execute("CREATE TABLE offenders (
     doc_id   SERIAL PRIMARY KEY,
