@@ -1,0 +1,6 @@
+[package]
+name = "hardtack"
+version = "0.1.0"
+authors = ["alexander <blakmatr@gmail.com>"]
+[dependencies]
+postgres = "0.8"
